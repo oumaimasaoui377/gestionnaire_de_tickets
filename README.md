@@ -11,13 +11,13 @@ Ce projet est une application web de gestion de tickets d'assistance technique, 
 ## Apercu du Projet
 
 ### 1. Interface de Connexion
-![Login](screenshots/login.png)
+![Login](login.png)
 
 ### 2. Dashboard Administrateur
-![Admin Dashboard](screenshots/dashboard.png)
+![Admin Dashboard](dashboard.png)
 
 ### 3. Structure de la Base de Donnees
-![Database](screenshots/database.png)
+![Database](database.png)
 
 ## Technologies Utilisees
 - Backend : PHP (PDO)
