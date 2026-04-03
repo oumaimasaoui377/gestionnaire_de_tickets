@@ -1,11 +1,38 @@
-# Gestionnaire de Tickets
+# Systeme de Gestion de Tickets - L'Atelier des Jeux
 
-~ PRÉSENTATION ~
+Ce projet est une application web de gestion de tickets d'assistance technique, permettant aux utilisateurs de soumettre des problemes et aux techniciens de les resoudre.
 
-~ EXPLICATIONS ~
+## Fonctionnalites
+- Authentification Multi-roles : Administrateur, Technicien, Utilisateur.
+- Gestion des Tickets : Creation, suivi de statut (Ouvert, En cours, Ferme).
+- Tableau de Bord Admin : Statistiques en temps reel sur les utilisateurs et les tickets.
+- Securite : Protection des routes et hachage des mots de passe.
 
-~ FONCTIONNEMENT ~
+## Apercu du Projet
 
-~ CODE ~
+### 1. Interface de Connexion
+![Login](screenshots/login.png)
 
-~ PERSPECTIVES ENVISAGEABLES ~
+### 2. Dashboard Administrateur
+![Admin Dashboard](screenshots/dashboard.png)
+
+### 3. Structure de la Base de Donnees
+![Database](screenshots/database.png)
+
+## Technologies Utilisees
+- Backend : PHP (PDO)
+- Frontend : HTML5, CSS3 (W3.CSS / Bootstrap)
+- Base de donnees : MySQL (XAMPP / PHPMyAdmin)
+
+## Identifiants de Test
+| Role | Identifiant | Mot de passe |
+| :--- | :--- | :--- |
+| Administrateur | admin | admin123 |
+| Technicien | technicien | tech123 |
+| Utilisateur | mdupont | password |
+
+## Installation Locale
+1. Cloner le projet : git clone [TON_LIEN_GITHUB]
+2. Importer le fichier .sql dans PHPMyAdmin.
+3. Configurer config.php avec vos acces locaux.
+4. Lancer via localhost.
