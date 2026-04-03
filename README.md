@@ -32,7 +32,7 @@ Ce projet est une application web de gestion de tickets d'assistance technique, 
 | Utilisateur | mdupont | password |
 
 ## Installation Locale
-1. Cloner le projet : git clone [TON_LIEN_GITHUB]
+1. Cloner le projet : git clone https://github.com/oumaimasaoui377/gestionnaire_de_tickets.git
 2. Importer le fichier .sql dans PHPMyAdmin.
 3. Configurer config.php avec vos acces locaux.
-4. Lancer via localhost.
+4. Lancer par localhost.
